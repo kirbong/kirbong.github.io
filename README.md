@@ -1,2 +1,5 @@
-# kirbong.github.io
-Kristen Marcinek's Portfolio
+# marcinek.tech
+
+The portfolio of Kristen Marcinek
+
+
