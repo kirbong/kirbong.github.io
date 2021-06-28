@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
         <link rel="stylesheet" href="style.css">
         <title>
-            Document
+            Kristen's Portfolio
         </title>
     </head>
     <body>
@@ -14,6 +14,14 @@
         <script src="./three.min.js"></script>
         <script src="./STLLoader.js"></script>
         <script src="./app.js"></script>
+        <script>
+            let scene, camera, renderer;
+
+            function init() {
+                scene = new THREE.Scene();
+                camera = new THREE.PerspectiveCamera(60,window.innerWidth / window.innerHeight,1, 1000);
+            }
+        </script>
         <h1>Hello World</h1>
         <p>I'm hosted with GitHub Pages.</p>
     </body>
