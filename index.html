@@ -27,6 +27,24 @@
                 renderer.setSize(window.innerWidth, window.innerHeight);
                 document.body.appendChild(renderer.domElement);
 
+                starGeo = new THREE.Geometry();
+                for(let i=0;i<6000;i++) {
+                    star = new THREE.Vector3(
+                        Math.random() * 600 - 300,
+                        Math.random() * 600 - 300,
+                        Math.random() * 600 - 300
+                    );
+                    starGeo.vertices.push(star);
+                }
+                let sprite = THREE.TextureLoader().load('star.png');
+                let starMaterial = new THREE.PointsMaterial({
+                    color: 0xaaaaaa,
+                    size: 0.7,
+                    map: sprite
+                });
+
+                
+
                 animate();
             }
 
