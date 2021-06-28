@@ -15,7 +15,7 @@
         <script src="./STLLoader.js"></script>
         <script src="./app.js"></script>
         <script>
-            let scene, camera, renderer, starGeo;
+            let scene, camera, renderer, starGeo, stars;
 
             function init() {
                 scene = new THREE.Scene();
@@ -43,7 +43,8 @@
                     map: sprite
                 });
 
-                
+                stars = new THREE.Points(starGeo,starMaterial);
+                scene.add(stars);
 
                 animate();
             }
