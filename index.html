@@ -15,7 +15,7 @@
         <script src="./STLLoader.js"></script>
         <script src="./app.js"></script>
         <script>
-            let scene, camera, renderer;
+            let scene, camera, renderer, starGeo;
 
             function init() {
                 scene = new THREE.Scene();
@@ -32,7 +32,11 @@
 
             function animate() {
                 renderer.render(scene,camera);
+                requestAnimationFrame(animate);
             }
+
+            init();
+
         </script>
         <h1>Hello World</h1>
         <p>I'm hosted with GitHub Pages.</p>
