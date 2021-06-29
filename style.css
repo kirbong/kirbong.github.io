@@ -27,6 +27,10 @@ canvas {
     padding: 15px 0;
 }
 
+.navbar.sticky {
+    background: black;
+}
+
 .navbar .max-width {
     display: flex;
     align-items: center;
