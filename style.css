@@ -102,6 +102,12 @@ canvas {
     display: block;
 }
 
+.menu-btn {
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+}
+
 .home {
     display: flex;
     height: 100vh;
