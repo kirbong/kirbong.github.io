@@ -15,10 +15,23 @@ canvas {
     z-index: -1;
 }
 
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
 .navbar {
     background: transparent;
     position: fixed;
     width: 100%;
+    padding: 15px 0;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar .logo a {
@@ -26,8 +39,16 @@ canvas {
     font-weight: 600;
 }
 
-.navbar .menu li a{
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
     color: white;
+    font-size: 16px;
+    margin-left: 25px;
+    padding: 14px 16px;
 }
 
 .dropdown {
@@ -40,10 +61,8 @@ canvas {
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; 
-    margin: 0; 
+    font-family: inherit;
 }
   
 .dropdown-content {
@@ -54,7 +73,6 @@ canvas {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-  
 
 .dropdown-content a {
     float: none;
@@ -74,10 +92,8 @@ canvas {
     display: block;
 }
 
-.header {
-    color: white;
-    font-family: monospace;
+.home {
+    display: flex;
+    height: 100vh;
 }
-
-
 

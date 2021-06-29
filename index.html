@@ -13,40 +13,50 @@
         <nav class="navbar">
             <div class="max-width">
                 <div class="logo"><a href="#">Portfolio</a></div>
+                <ul class="menu">
+                    <li><a href="">About</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Projects
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">3D Modeling</a>
+                            <a href="#">Programming</a>
+                            <a href="#">Concept Art</a>
+                            <a href="#">Graphic Design</a>
+                            <a href="#">Digital Illustration</a>
+                            <a href="#">School Projects</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Links
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">LinkedIn</a>
+                            <a href="#">Github</a>
+                            <a href="#">Thingiverse</a>
+                            <a href="#">Redbubble</a>
+                        </div>
+                    </div>
+                    <li><a href="">Resume</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">The Lab</a></li>
+                </ul>
             </div>
-            <ul class="menu">
-                <li><a href="">About</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn">Projects
-                      <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">3D Modeling</a>
-                        <a href="#">Programming</a>
-                        <a href="#">Concept Art</a>
-                        <a href="#">Graphic Design</a>
-                        <a href="#">Digital Illustration</a>
-                        <a href="#">School Projects</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">Links
-                      <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">LinkedIn</a>
-                        <a href="#">Github</a>
-                        <a href="#">Thingiverse</a>
-                        <a href="#">Redbubble</a>
-                    </div>
-                </div>
-                <li><a href="">Resume</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">The Lab</a></li>
-            </ul>
         </nav>
         
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text1">Welcome dear traveler to the mind of</div>
+                    <div class="text1">Kristen Marcinek</div>
+                    <div class="text1">I'm a <span>Designer</span></div>
+                </div>
+            </div>
+        </section>
+
         <script src="js/three.min.js"></script>
         <script>
             let scene, camera, renderer, stars, starGeo;
