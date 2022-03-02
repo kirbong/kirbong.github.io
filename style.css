@@ -20,88 +20,6 @@ canvas {
     margin: auto;
 }
 
-.navbar {
-    background: transparent;
-    position: fixed;
-    width: 100%;
-    padding: 15px 0;
-}
-
-.navbar.sticky {
-    background: black;
-}
-
-.navbar .max-width {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar .logo a {
-    font-size: 35px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-}
-
-.navbar .menu li {
-    list-style: none;
-    display: inline-block;
-}
-
-.navbar .menu li a {
-    color: white;
-    font-size: 16px;
-    margin-left: 25px;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.navbar .menu li a:hover {
-    color: lightskyblue;
-}
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-  
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    background-color: inherit;
-    font-family: inherit;
-}
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-  
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-  
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 .menu-btn {
     color: white;
     font-size: 23px;
@@ -138,6 +56,17 @@ canvas {
     color: lightskyblue;
     font-weight: 500;
 }
+
+.container {  display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . .";
+  }
 
 @media (max-width: 991px) {
     .max-width {
