@@ -5,6 +5,8 @@ body {
     font-family: monospace;
     background-color: black;
     color: white;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 canvas {
@@ -82,3 +84,7 @@ canvas {
     height: 100%;
     object-fit: scale-down;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
