@@ -9,13 +9,13 @@ $(document).ready(function(){
 });
 
 
-const modal = document.querySelector('.modal');
-const previews = document.querySelectorAll('.img-container img');
-const original = document.querySelector('.modal-img');
-const imgText = document.querySelector('.caption')
+const modal = document.querySelector(".modal");
+const previews = document.querySelectorAll(".img-container img");
+const original = document.querySelector(".modal-img");
+const imgText = document.querySelector(".caption");
 
-previews.forEach(preview => {
-    preview.addEventListener('click', () => {
-        modal.classList.add('open');
+previews.forEach((preview) => {
+    preview.addEventListener("click", () => {
+        modal.classList.add("open");
     });
 });
