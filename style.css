@@ -96,6 +96,8 @@ canvas {
     height: 100%;
     opacity: 0;
     pointer-events: none;
+    transition: 0.25s ease-out;
+
 }
 
 .modal.open {
@@ -111,7 +113,6 @@ canvas {
     bottom: 1%;
     left: 50%;
     transform: translate(-50%, -1%);
-    transition: 0.25s ease-out;
 }
 
 .modal-img {
