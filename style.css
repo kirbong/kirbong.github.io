@@ -1,6 +1,4 @@
 body {
-    width: 100vw;
-    height: 100vh;
     margin: 0;
     font-family: monospace;
     background-color: black;
@@ -14,19 +12,6 @@ canvas {
     top:0;
     left:0;
     z-index: -1;
-}
-
-.max-width {
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
-}
-
-.menu-btn {
-    color: white;
-    font-size: 23px;
-    cursor: pointer;
-    display: none;
 }
 
 .home {
@@ -70,14 +55,9 @@ canvas {
       ". . .";
 }
 
-.gallery-1 {
+.gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-}
-
-.gallery-2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .img-container img {
@@ -92,12 +72,19 @@ canvas {
     transform: scale(1.2);
 }
 
-.container-2 {
+.slideshow {
     position: relative;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
 .mySlides {
     display: none;
+}
+
+.mySlides img {
+    width: 100%;
 }
 
 .cursor {
