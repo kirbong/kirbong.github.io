@@ -56,6 +56,11 @@ canvas {
       ". . .";
 }
 
+.container img {
+    width: 100%;
+    height: auto;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
