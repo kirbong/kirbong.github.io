@@ -61,6 +61,10 @@ canvas {
     height: auto;
 }
 
+.container p {
+    text-align: center;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
