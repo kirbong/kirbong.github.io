@@ -1,16 +1,18 @@
 body {
     margin: 0;
-    font-family: monospace;
+    font-family: 'Rubik', sans-serif;
     background-color: black;
     color: white;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 canvas {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     z-index: -1;
 }
 
@@ -24,36 +26,30 @@ canvas {
     margin: auto 0 auto 40px;
 }
 
-.home .home-content .text1 {
+#text1 {
     font-size: 27px;
 }
 
-.home .home-content .text2 {
+#text2 {
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 }
 
-.home .home-content .text3 {
+#text3 {
     font-size: 40px;
     margin: 5px 0;
-}
-
-.home .home-content .text3 span {
     color: lightskyblue;
     font-weight: 500;
 }
 
-.container {  
+.container {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas:
-      ". . ."
-      ". . ."
-      ". . .";
+    grid-template-areas: ". . ."". . ."". . .";
 }
 
 .container img {
@@ -101,7 +97,8 @@ canvas {
     cursor: pointer;
 }
 
-.prev, .next {
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 40%;
@@ -121,7 +118,8 @@ canvas {
     border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -155,10 +153,11 @@ canvas {
     opacity: 0.6;
 }
 
-.active, .demo:hover {
+.active,
+.demo:hover {
     opacity: 1;
 }
 
 body::-webkit-scrollbar {
     display: none;
-  }
+}
