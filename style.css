@@ -26,17 +26,17 @@ canvas {
     margin: auto 0 auto 40px;
 }
 
-#text1 {
+.home .max-width .text1 {
     font-size: 27px;
 }
 
-#text2 {
+.home .max-width .text2 {
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 }
 
-#text3 {
+.home .max-width .text3 {
     font-size: 40px;
     margin: 5px 0;
     color: lightskyblue;
