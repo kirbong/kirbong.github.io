@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px auto;
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
@@ -75,4 +75,67 @@ path.link {
     fill: none;
     stroke: #ccc;
     stroke-width: 2.0px;
+}
+
+.stickynote h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.stickynote p {
+    font-size: 1rem;
+}
+
+.stickynote ul, li {
+    list-style: none;
+}
+
+.stickynote ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stickynote ul li a {
+    text-decoration:none;
+    color:#000;
+    background:#ffc;
+    display:block;
+    height:10em;
+    width:10em;
+    padding:1em;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    transform: rotate(-6deg);
+    transition: transform .15s linear;
+}
+
+.stickynote ul li:nth-child(even) a {
+    transform:rotate(4deg);
+    position:relative;
+    top:5px;
+    background:#cfc;
+}
+
+.stickynote ul li:nth-child(3n) a {
+    transform:rotate(-3deg);
+    position:relative;
+    top:-5px;
+    background:#ccf;
+}
+
+.stickynote ul li:nth-child(5n) a {
+    transform:rotate(5deg);
+    position:relative;
+    top:-10px;
+}
+
+.stickynote ul li a:hover,ul li a:focus {
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.25);
+    position:relative;
+    z-index:5;
+}
+
+.stickynote ul li {
+    margin: 1em;
 }
