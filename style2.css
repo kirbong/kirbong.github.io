@@ -83,7 +83,7 @@ path.link {
 }
 
 .stickynote p {
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 
 .stickynote ul, li {
@@ -145,9 +145,37 @@ img {
     width: auto;
 }
 
+.demo1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.5fr;
+    
+}
+
+.map {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.demo2 {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .infographic {
     height: 1000px;
     width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flyer {
+    height: 500px;
+    width: 386.25px;
     display: block;
     margin-left: auto;
     margin-right: auto;
