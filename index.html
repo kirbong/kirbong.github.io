@@ -5,17 +5,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <title>
         Kristen's Portfolio
     </title>
     <script src="js/three.min.js"></script>
     <script src="js/STLLoader.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <style type="text/css">
+        div.stlviewer {
+            height: 500px;
+        }
+    </style>
+    <script type=text/javascript>
+     window.onload=function() {
+         STLViewerEnable("stlviewer");
+      } 
+     </script>
+    <script src="js/stlviewer.js"></script>
 </head>
 
 <body>
@@ -23,33 +39,31 @@
         <div class="container-nav">
             <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: black;">
                 <a href="#" class="navbar-brand">Kristen Marcinek</a>
-                <button
-                 class="navbar-toggler"
-                 type="button"
-                 data-bs-toggle="collapse"
-                 data-bs-target="#toggleMobileMenu"
-                 aria-controls="toggleMobileMenu"
-                 aria-expanded="false"
-                 aria-label="Toggle Navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
+                    aria-label="Toggle Navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-    
+
                 <div class="collapse navbar-collapse" id="toggleMobileMenu">
                     <ul class="navbar-nav text-center">
                         <li><a class="nav-link" href="#About">About</a></li>
                         <li><a class="nav-link" href="#Projects">Projects</a></li>
                         <li><a class="nav-link" href="#">Resume</a></li>
-                        <li><a class="nav-link" href="https://www.linkedin.com/in/kristen-marcinek-1525ba150/" target="_blank">LinkedIn</a></li>
-                        <li><a class="nav-link" href="https://github.com/kristenmarcinek" target="_blank">GitHub</a></li>
+                        <li><a class="nav-link" href="https://www.linkedin.com/in/kristen-marcinek-1525ba150/"
+                                target="_blank">LinkedIn</a></li>
+                        <li><a class="nav-link" href="https://github.com/kristenmarcinek" target="_blank">GitHub</a>
+                        </li>
                         <li><a class="nav-link" href="https://kristoons.itch.io/" target="_blank">itch.io</a></li>
                         <li><a class="nav-link" href="https://twitter.com/k1rboba" target="_blank">Twitter</a></li>
-                        <li><a class="nav-link" href="https://www.redbubble.com/people/MystickerShoppe/shop" target="_blank">Redbubble</a></li>
+                        <li><a class="nav-link" href="https://www.redbubble.com/people/MystickerShoppe/shop"
+                                target="_blank">Redbubble</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-    
+
 
     <div class="home">
         <div class="max-width">
@@ -117,7 +131,9 @@
 
     <h1 id="About">About</h1>
     <p>Welcome! My name is Kristen Marcinek</p>
-    <p>I am a graduate of Rutgers University - New Brunswick with a B.A. in Information Technology and Informatics. Currently, I am a student manager at the Rutgers tech store, kite + key. I am also the former VP and a founding member of Rutgers Women's Gaming League. I'm interested in game dev
+    <p>I am a graduate of Rutgers University - New Brunswick with a B.A. in Information Technology and Informatics.
+        Currently, I am a student manager at the Rutgers tech store, kite + key. I am also the former VP and a founding
+        member of Rutgers Women's Gaming League. I'm interested in game dev
         and design and have taken coursework on game ideation, Unity, and C#!</p>
     <!--<p>I am also interested in other spheres of technology like cybersecurity, hacking, information assurance, and privacy. I have taken coursework in networking and infosec through my major and have also worked in IT for our School of Communication & Information.</p>
     <p>Outside of my major I have interests in activism and social justice. I work mainly in the sphere of reproductive justice, women's rights & gender equality, and LGBTQ+ issues. I am currently serving as the President for Reproductive Health Universal Taskforce at Rutgers, an organization within Douglass Residential College that partners with the UNFPA to spread education surrounding reproductive and sexual health and rights on campus and globally. My activism comes from the belief that women, cis or trans and GNC or gender conforming, and LGBTQ+ people have a common goal: to break down the patriarchy and bring about a more inclusive future.</p>-->
@@ -127,39 +143,48 @@
     <div class="container">
         <div class="project1">
             <p>Magic D8 Ball</p>
-            <a href="https://mysticfroggames.itch.io/magic-d8-ball" target="_blank"><img src="\content\d8-sc.png" alt=""></a>
+            <a href="https://mysticfroggames.itch.io/magic-d8-ball" target="_blank"><img src="\content\d8-sc.png"
+                    alt=""></a>
         </div>
         <div class="project2">
             <p>Life on Mars (LOM)</p>
-            <a href="https://2022-01-iti415.github.io/module4-final-patel-marcinek/Web/" target="_blank"><img src="\content\lom-sc.png" alt=""></a>
+            <a href="https://2022-01-iti415.github.io/module4-final-patel-marcinek/Web/" target="_blank"><img
+                    src="\content\lom-sc.png" alt=""></a>
         </div>
         <div class="project3">
             <p>Space SHMUP</p>
-            <a href="https://kristenmarcinek.github.io/space-shmup/" target="_blank"><img src="\content\shmup-sc.png" alt=""></a>
+            <a href="https://kristenmarcinek.github.io/space-shmup/" target="_blank"><img src="\content\shmup-sc.png"
+                    alt=""></a>
         </div>
         <div class="project4">
             <p>Apple Picker</p>
-            <a href="https://kristenmarcinek.github.io/apple-picker/" target="_blank"><img src="\content\apple-picker-sc.png" alt=""></a>
+            <a href="https://kristenmarcinek.github.io/apple-picker/" target="_blank"><img
+                    src="\content\apple-picker-sc.png" alt=""></a>
         </div>
         <div class="project5">
             <p>Roll a Ball</p>
-            <a href="https://kristenmarcinek.github.io/roll-a-ball/" target="_blank"><img src="\content\roll-a-ball-sc.png" alt=""></a>
+            <a href="https://kristenmarcinek.github.io/roll-a-ball/" target="_blank"><img
+                    src="\content\roll-a-ball-sc.png" alt=""></a>
         </div>
         <div class="project6">
             <p>In a Jam</p>
-            <a href="https://kristenmarcinek.github.io/in-a-jam/" target="_blank"><img src="\content\in-a-jam-sc.png" alt=""></a>
+            <a href="https://kristenmarcinek.github.io/in-a-jam/" target="_blank"><img src="\content\in-a-jam-sc.png"
+                    alt=""></a>
         </div>
         <div class="project7">
             <p>Worm on a String</p>
-            <a href="https://github.com/kristenmarcinek/worm-on-a-string" target="_blank"><img src="\content\worm-on-a-string-sc.png" alt=""></a>
+            <a href="https://github.com/kristenmarcinek/worm-on-a-string" target="_blank"><img
+                    src="\content\worm-on-a-string-sc.png" alt=""></a>
         </div>
         <div class="project8">
             <p>Mission Demolition</p>
-            <a href="https://kristenmarcinek.github.io/mission-demolition/" target="_blank"><img src="\content\mission-demolition-sc.png" alt=""></a>
+            <a href="https://kristenmarcinek.github.io/mission-demolition/" target="_blank"><img
+                    src="\content\mission-demolition-sc.png" alt=""></a>
         </div>
         <div class="project9">
             <p>Conway's Game of Life</p>
-            <a href="https://kristenmarcinek.github.io/conway-game-of-life/" target="_blank"><img src="\content\conway-game-of-life-sc.png" alt=""></a>
+            <a href="https://kristenmarcinek.github.io/conway-game-of-life/" target="_blank"><img
+                    src="\content\conway-game-of-life-sc.png" alt=""></a>
         </div>
         <div class="project10">
             <p>Trash Thrash (Coming soon!)</p>
@@ -167,7 +192,8 @@
         </div>
         <div class="project11">
             <p>Drag Name Generator</p>
-            <a href="https://mysticfroggames.itch.io/drag-name-generator-business-card" target="_blank"><img src="\content\drag-sc.png" alt=""></a>
+            <a href="https://mysticfroggames.itch.io/drag-name-generator-business-card" target="_blank"><img
+                    src="\content\drag-sc.png" alt=""></a>
         </div>
     </div>
 
@@ -225,34 +251,47 @@
 
         <div class="row">
             <div class="column">
-                <img src="\content\creatures-sheet.png" alt="Creatures created for my game Trick or Treat Simulator" class="demo cursor" style="width:100%" onclick="currentSlide(1)">
+                <img src="\content\creatures-sheet.png" alt="Creatures created for my game Trick or Treat Simulator"
+                    class="demo cursor" style="width:100%" onclick="currentSlide(1)">
             </div>
             <div class="column">
-                <img src="\content\ghost-kid-sheet.png" alt="The main character of Trick or Treat Simulator" class="demo cursor" style="width:100%" onclick="currentSlide(2)">
+                <img src="\content\ghost-kid-sheet.png" alt="The main character of Trick or Treat Simulator"
+                    class="demo cursor" style="width:100%" onclick="currentSlide(2)">
             </div>
             <div class="column">
-                <img src="content\graveyard-sheet.png" alt="Graveyard assets for Trick or Treat Simulator. Inspired by assets seen online." class="demo cursor" style="width:100%" onclick="currentSlide(3)">
+                <img src="content\graveyard-sheet.png"
+                    alt="Graveyard assets for Trick or Treat Simulator. Inspired by assets seen online."
+                    class="demo cursor" style="width:100%" onclick="currentSlide(3)">
             </div>
             <div class="column">
-                <img src="\content\menu-sheet.png" alt="Menu assets for Trick or Treat Simulator. Inspired by assets seen online." class="demo cursor" style="width:100%" onclick="currentSlide(4)">
+                <img src="\content\menu-sheet.png"
+                    alt="Menu assets for Trick or Treat Simulator. Inspired by assets seen online." class="demo cursor"
+                    style="width:100%" onclick="currentSlide(4)">
             </div>
             <div class="column">
-                <img src="\content\school-sheet.png" alt="Assets for a school setting" class="demo cursor" style="width:100%" onclick="currentSlide(5)">
+                <img src="\content\school-sheet.png" alt="Assets for a school setting" class="demo cursor"
+                    style="width:100%" onclick="currentSlide(5)">
             </div>
             <div class="column">
-                <img src="\content\schoolhouse-enemies-sheet.png" alt="Enemies from the schoolhouse" class="demo cursor" style="width:100%" onclick="currentSlide(6)">
+                <img src="\content\schoolhouse-enemies-sheet.png" alt="Enemies from the schoolhouse" class="demo cursor"
+                    style="width:100%" onclick="currentSlide(6)">
             </div>
             <div class="column">
-                <img src="\content\trick-or-treating-sheet.png" alt="Assets for a topdown rpg angle town for Trick or Treat Simulator" class="demo cursor" style="width:100%" onclick="currentSlide(7)">
+                <img src="\content\trick-or-treating-sheet.png"
+                    alt="Assets for a topdown rpg angle town for Trick or Treat Simulator" class="demo cursor"
+                    style="width:100%" onclick="currentSlide(7)">
             </div>
             <div class="column">
-                <img src="\content\tutorial-sheet.png" alt="Tutorial level assets" class="demo cursor" style="width:100%" onclick="currentSlide(8)">
+                <img src="\content\tutorial-sheet.png" alt="Tutorial level assets" class="demo cursor"
+                    style="width:100%" onclick="currentSlide(8)">
             </div>
             <div class="column">
-                <img src="\content\creature-dice.png" alt="Faces of several dice for my board game Trash Thrash" class="demo cursor" style="width:100%" onclick="currentSlide(9)">
+                <img src="\content\creature-dice.png" alt="Faces of several dice for my board game Trash Thrash"
+                    class="demo cursor" style="width:100%" onclick="currentSlide(9)">
             </div>
             <div class="column">
-                <img src="\content\plots-of-land.png" alt="Plots of Land cards that make up the board in Trash Thrash" class="demo cursor" style="width:100%" onclick="currentSlide(10)">
+                <img src="\content\plots-of-land.png" alt="Plots of Land cards that make up the board in Trash Thrash"
+                    class="demo cursor" style="width:100%" onclick="currentSlide(10)">
             </div>
         </div>
 
@@ -328,8 +367,36 @@
             </div>
         </div>-->
 
+    <h1 id="3D-Modeling">3D Modeling</h1>
+
+    <div class=stlviewer data-src=/content/hopper.stl></div>
+
+
+    <h1 id="Illustration">Illustration</h1>
+
+    <div class="img-grid-row">
+        <div class="img-grid-column">
+            <img src="/content/aloe.png">
+            <img src="/content/Catra.png">
+        </div>
+        <div class="img-grid-column">
+            <img src="/content/witch-frog.png">
+            <img src="/content/mushrooms.png">
+        </div>
+        <div class="img-grid-column">
+            <img src="/content/witch-hat.png">
+            <img src="/content/round-boi.png" alt="">
+        </div>
+        <div class="img-grid-column">
+            <img src="/content/cauldron.png">
+            <img src="/content/razer-mockup.png" alt="">
+        </div>
+    </div>
+
+    <!--let scene, camera, renderer, stars, starGeo;-->
+
     <script>
-        let scene, camera, renderer, stars, starGeo;
+        let camera, renderer, stars, starGeo;
 
         function init() {
 
