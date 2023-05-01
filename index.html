@@ -3,42 +3,30 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <title>
-        Kristen's Portfolio
-    </title>
+        rel="stylesheet" />
+    <title>Kristen's Portfolio</title>
     <script src="js/three.min.js"></script>
-    <script src="js/STLLoader.js"></script>
     <script src="js/OrbitControls.js"></script>
-    <style type="text/css">
-        div.stlviewer {
-            height: 500px;
-        }
-    </style>
-    <script type=text/javascript>
-     window.onload=function() {
-         STLViewerEnable("stlviewer");
-      } 
-     </script>
-    <script src="js/stlviewer.js"></script>
+    <script src="js/OBJLoader.js"></script>
 </head>
 
 <body>
+
     <header>
         <div class="container-nav">
             <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: black;">
-                <a href="#" class="navbar-brand">Kristen Marcinek</a>
+                <a href="/index.html" class="navbar-brand">Kristen Marcinek</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
                     aria-label="Toggle Navigation">
@@ -48,18 +36,18 @@
                 <div class="collapse navbar-collapse" id="toggleMobileMenu">
                     <ul class="navbar-nav text-center">
                         <li><a class="nav-link" href="#About">About</a></li>
-                        <li><a class="nav-link" href="/projects.html">Projects</a></li>
-                        <li><a class="nav-link" href="/game-assets.html">Game Assets</a></li>
-                        <li><a class="nav-link" href="/3d-modeling.html">3D Modeling</a></li>
-                        <li><a class="nav-link" href="/illustration.html">Illustration</a></li>
-                        <li><a class="nav-link" href="#">Resume</a></li>
+                        <li><a class="nav-link" href="#Games">My Games</a></li>
+                        <li><a class="nav-link" href="#Coding">Coding Projects</a></li>
+                        <!-- <li><a class="nav-link" href="/character-design.html">Character Design</a></li>
+                        <li><a class="nav-link" href="/3d-modeling.html">3D Models</a></li> -->
+                        <!--<li><a class="nav-link" href="/themed-entertainment.html">Themed Entertainment</a></li>-->
+                        <li><a class="nav-link" href="#Illustration">Illustration</a></li>
                         <li><a class="nav-link" href="https://www.linkedin.com/in/kristen-marcinek-1525ba150/"
-                                target="_blank">LinkedIn</a></li>
+                                target="_blank">Linkedin</a></li>
+                        <li><a class="nav-link" href="https://mysticfroggames.itch.io/" target="_blank">itch.io</a></li>
                         <li><a class="nav-link" href="https://github.com/kristenmarcinek" target="_blank">GitHub</a>
                         </li>
-                        <li><a class="nav-link" href="https://kristoons.itch.io/" target="_blank">itch.io</a></li>
-                        <li><a class="nav-link" href="https://twitter.com/k1rboba" target="_blank">Twitter</a></li>
-                        <li><a class="nav-link" href="https://www.redbubble.com/people/MystickerShoppe/shop" target="_blank">Redbubble</a></li>
+                        <li><a class="nav-link" href="cv.html">CV</a></li>
                     </ul>
                 </div>
             </nav>
@@ -83,7 +71,7 @@
 
     <script>
         const textDisplay = document.getElementById('text3')
-        const phrases = ["I'm a developer", "hacker", "designer", "and illustrator."]
+        const phrases = ["I'm a developer", "designer", "and illustrator."]
         let i = 0
         let j = 0
         let currentPhrase = []
@@ -134,14 +122,649 @@
     <h1 id="About">About</h1>
     <p>Welcome! My name is Kristen Marcinek</p>
     <p>I am a graduate of Rutgers University - New Brunswick with a B.A. in Information Technology and Informatics.
-        Currently, I am a Game Design MA candidate at American University, as well as a Museum Experience Associate with the National Children's Museum. I am also the former VP and a founding
-        member of Rutgers Women's Gaming League. I'm interested in game dev
-        and design and have taken coursework on game ideation, Unity, and C#!</p>
-    <!--<p>I am also interested in other spheres of technology like cybersecurity, hacking, information assurance, and privacy. I have taken coursework in networking and infosec through my major and have also worked in IT for our School of Communication & Information.</p>
-    <p>Outside of my major I have interests in activism and social justice. I work mainly in the sphere of reproductive justice, women's rights & gender equality, and LGBTQ+ issues. I am currently serving as the President for Reproductive Health Universal Taskforce at Rutgers, an organization within Douglass Residential College that partners with the UNFPA to spread education surrounding reproductive and sexual health and rights on campus and globally. My activism comes from the belief that women, cis or trans and GNC or gender conforming, and LGBTQ+ people have a common goal: to break down the patriarchy and bring about a more inclusive future.</p>-->
-    <p>Thank you for stopping by, and you can see some of my work in the navbar! :D</p>
+        Currently, I am a Game Design MA candidate at American University, as well as a Museum Experience Associate with
+        the National Children's Museum. I am also the former VP and a founding
+        member of Rutgers Women's Gaming League.</p>
+    <p>I am interested in play, especially learning through play, and game design. Here you will see my
+        portfolio surrounding these topics.</p>
+    <p>My technical skillset includes Unity Engine, C#, JavaScript, p5.js, other webdev tools like HTML, CSS, Bootstrap,
+        and PHP, game engines like Construct 3 and Stencyl, Python, and renpy.</p>
+    <p>I am also skilled in 2D illustration, 3D modeling, graphic design, Adobe Creative Cloud, verbal and written
+        communication, and informal education (i.e.
+        learning through play).</p>
+    <p>Thank you for stopping by!</p>
 
-    <!--let scene, camera, renderer, stars, starGeo;-->
+    <h1 id="Games">Games</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/after-the-flood-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">After the Flood (2022 - Current)</h5>
+                    <p class="card-text">A young child traverses a flooded New York City in 2066, piecing together what
+                        led to the downfall of
+                        mankind.</p>
+                    <p class="card-text">After the Flood is a short 2D platformer survival game created for the 2022
+                        Apocalypse Jam.</p>
+                    <p class="card-text">For the game jam, I was tasked with the creation and implementation of the
+                        toxic meter within the
+                        game. I also created some art assets, including some of the buttons and wooden planks.</p>
+                    <p class="card-text">We were awarded Second Best Overall, and Best in the categories of "Too Late"
+                        and "Apocalypse.".</p>
+                    <a href="https://mysticfroggames.itch.io/after-the-flood" target="_blank"
+                        class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/pixelfight_logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">PixelFIGHT TCG (2022 - Current)</h5>
+                    <p class="card-text">Pixel FIGHT! PixelFIGHT is a 2-player PvP sandbox trading card game inspired by
+                        similar games like
+                        Yu-Gi-Oh, Magic the Gathering, Minecraft, and Terraria. In PixelFIGHT, players can craft the
+                        strongest structures and the hardiest tools. The player who destroys all their opponent’s
+                        Structures
+                        and depletes their HP to 0 reigns victorious!</p>
+                    <p class="card-text">PixelFIGHT was created as the midterm for a Game Prototyping course taken in
+                        Fall of 2022. The main
+                        mechanic of the game is to build structures and destroy your opponent's field.</p>
+                    <a href="/content/PixelFIGHT.zip" class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Trash Thrash (2021 - Current)</h5>
+                    <p class="card-text">Welcome to Trash Thrash!</p>
+                    <p class="card-text">You are a lovely suburbanite just trying to get by, but your pesty neighbors
+                        aren’t letting that be possible. They’re loud, messy, and worst of all, TRASHY.</p>
+                    <p class="card-text">You’ve come up with a BRILLIANT plan; recruit neighborhood animals to destroy
+                        their reputation before they can destroy yours!</p>
+                    <p class="card-text">Fight to the figurative death with all your favorite trashy but cute animals.
+                    </p>
+                    <p class="card-text">Trash Thrash is a dicebuilding tabletop game centered around PVP combat.
+                        Players play as neighbors who deploy trash animals such as raccoons, mice, possums, and rats to
+                        destroy the other’s home. This game was developed as a semester-long final project for the
+                        Rutgers ITI Game Design Methodology course.</p>
+                    <a href="/content/trash-thrash.zip" class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/trick-or-treat-simulator.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Trick or Treat Simulator (2018 - Current)</h5>
+                    <p class="card-text">Trick or Treat Simulator is the game I have been working on the longest.
+                        Original started in Stencyl, it has seen Twine and Unity iterations.</p>
+                    <p class="card-text">In Trick or Treat Simulator, you play as Ghost Kid. Ghost Kid goes on a quest
+                        for love and acceptance.</p>
+                    <a href="/twine/index.html" target="_blank" class="btn btn-outline-info">Play Twine Game</a>
+                    <a href="#" class="btn btn-outline-info">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/frog-hop-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Frog Hop (2023)</h5>
+                    <p class="card-text">Frog Hop was created as a midterm project for Game Prototyping I. Frog Hop uses
+                        a CharacterController, colliders, and a NavMesh to create a game where you dodge the mushrooms
+                        and collect the burgers!</p>
+                    <a href="/frog-hop/index.html" target="_blank" class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/cattoon-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cattoon (2023)</h5>
+                    <p class="card-text">Cattoon was created by my partner, Radha, and I. It was inspired by the game
+                        Splatoon. You play as a cat and try to color more blocks than your AI opponents.</p>
+                    <a href="/cattoon/index.html" target="_blank" class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/moth-kirb-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mothman and Kirby (2023)</h5>
+                    <p class="card-text">Mothman and Kirby was created by my partner, Tristan, and I. Press space to
+                        spit fire at your enemies and collect the Kirbys!</p>
+                    <a href="/mothman-and-kirby/index.html" target="_blank" class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/harkmall.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Holidays in Harkmall (2022)</h5>
+                    <p class="card-text">Holidays in Harkmall was the first game I made in Ren'Py, a game engine that
+                        utilizes an alternate Python scripting language to create visual novels.</p>
+                    <p class="card-text">You are Rowan, a junior reporter working at Buzzread. After your most recent
+                        listicle flopping, you're on the hunt for the next big Christmas hit, and it just so happens to
+                        land you in your hometown of Harkmall, Massachusetts, aka everyone's mental image of a Christmas
+                        village. From "there's only one bed" to getting into sexy snowball fights, Harkmall is rife with
+                        Christmas cliches that'll make you think, "hey, is this an affectionate parody of a certain
+                        franchise of Christmas movies?"</p>
+                    <p class="card-text">My role in the game jam was as the programmer.</p>
+                    <a href="https://starishsky.itch.io/harkmall" target="_blank" class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/d8-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Magic D8 Ball (2022)</h5>
+                    <p class="card-text">Ask a question, roll an 8-sided die, and read the corresponding answer on the
+                        back of the card!</p>
+                    <p class="card-text">Magic D8 Ball is a business card TTRPG created in Procreate for the iPad Pro.
+                        Magic D8 Ball is inspired by the classic Magic 8 Ball created by Mattel.</p>
+                    <a href="https://mysticfroggames.itch.io/magic-d8-ball" target="_blank"
+                        class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/lom-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Life on Mars (2022)</h5>
+                    <p class="card-text">Collect signs of life on Mars before the time runs out!</p>
+                    <p class="card-text">My partner and I used ProBuilder for the terrain and SNAPS for some of the
+                        assets. It features voice acting, sound effects, and particle systems.</p>
+                    <a href="/life-on-mars/index.html" target="_blank" class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/shmup-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Space SHMUP (2022)</h5>
+                    <p class="card-text">Space SHMUP is a shoot em up based on old arcade games like Galaga and
+                        Asteroids.</p>
+                    <p class="card-text">The code was laid out for us in our textbook, but my partner and I added
+                        "waves" or levels, as well as a tracking missile that tracks the player's movement and hurdles
+                        towards them in order to destroy their shields.</p>
+                    <a href="/space-shmup/index.html" target="_blank" class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/roll-a-ball-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Roll a Ball (2022)</h5>
+                    <p class="card-text">Roll a Ball was the first 3D Unity game I've ever created by myself. It was
+                        made following a tutorial, found here: https://learn.unity.com/project/roll-a-ball</p>
+                    <p class="card-text">To differentiate it from the tutorial, I gave the ball a frog texture, the
+                        cubes a burger texture, added a timer, and added a burp sound effect on collision.</p>
+                    <a href="/roll-a-ball/index.html" target="_blank" class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/worm-on-a-string-sc.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Worm on a String (2021)</h5>
+                    <p class="card-text">Worm on a String is an original spin on Snake. It was created using PyGame.</p>
+                    <a href="https://mysticfroggames.itch.io/worm-on-a-string" target="_blank"
+                        class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/in-a-jam-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">In a Jam (2021)</h5>
+                    <p class="card-text">In a Jam is a roguelike game that has you take control of a jam jar that was
+                        dropped at a picnic. Find a way back to the basket before the bugs eat you!</p>
+                    <a href="https://uncledunkle.itch.io/in-a-jam" target="_blank" class="btn btn-outline-info">Play</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 id="Coding">Coding</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/checkers-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Checkerboard</h5>
+                    <p class="card-text">Checkerboard image created using modulo in p5.js.</p>
+                    <a href="https://openprocessing.org/sketch/1740295" target="_blank"
+                        class="btn btn-outline-info">Go</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/let-it-snow-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Let it Snow</h5>
+                    <p class="card-text">Snow animation created in p5.js that tried to use Koch fractals.</p>
+                    <a href="https://openprocessing.org/sketch/1739781" target="_blank"
+                        class="btn btn-outline-info">Go</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/matrix-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Matrix Rain</h5>
+                    <p class="card-text">Matrix rain simulation created in p5.js.</p>
+                    <a href="https://openprocessing.org/sketch/1699863" target="_blank"
+                        class="btn btn-outline-info">Go</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/dvd-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">DVD Shot</h5>
+                    <p class="card-text">Game created in p5.js where you have to click and drag to hit the corners of
+                        the screen.</p>
+                    <a href="https://openprocessing.org/sketch/1670775" target="_blank"
+                        class="btn btn-outline-info">Go</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/rocketship-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Rocket Ship</h5>
+                    <p class="card-text">Rocket ship created in p5.js.</p>
+                    <a href="https://openprocessing.org/sketch/1636700" target="_blank"
+                        class="btn btn-outline-info">Go</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-transparent">
+                <img src="/content/conway-sc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Conway's Game of Life</h5>
+                    <p class="card-text">Game of Life simulation created in JavaScript.</p>
+                    <a href="https://marcinek.tech/conway-game-of-life/" target="_blank"
+                        class="btn btn-outline-info">Go</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <h1>3D Modeling</h1>
+
+    <script>
+        let OBJscene, OBJcamera, OBJrenderer; 
+
+        OBJscene = new THREE.Scene();
+        OBJcamera = new THREE.PerspectiveCamera(20, window.innerWidth / window.innerHeight, 1, 2000);
+        OBJcamera.position.z = 250;
+
+        var light = new THREE.AmbientLight(0xffffff);
+        OBJscene.add(light);
+
+        light = new THREE.HemisphereLight(0xffffff, 0x444444, 1.0);
+        light.position.set(0, 1, 0);
+        OBJscene.add(light);
+
+        var directionalLight = new THREE.DirectionalLight(0xffeedd);
+        directionalLight.position.set(0, 1, 0).normalize();
+        OBJscene.add(directionalLight);
+
+        var mesh = null;
+
+        const loader = new OBJLoader();
+
+        loader.load(
+            '/3d-models/bottle-opener-knuck.obj',
+
+            function(object) {
+                OBJscene.add(object);
+            }
+        );
+
+        OBJrenderer = new THREE.WebGLRenderer();
+        OBJrenderer.setSize(window.innerWidth, window.innerHeight);
+        OBJrenderer.setClearColor(0xccccff);
+        document.body.appendChild(OBJrenderer.domElement);
+
+        var controls = new THREE.OrbitControls(OBJcamera, OBJrenderer.domElement);
+        controls.addEventListener('change', OBJrenderer);
+
+        animate();
+
+        function animate() {
+            OBJrenderer.render(OBJscene, OBJcamera);
+            requestAnimationFrame(animate);
+        }
+    </script> -->
+
+
+    <h1 id="Illustration">Illustration</h1>
+
+    <div class="img-grid-row">
+        <div class="img-grid-column">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#aloe">
+                <img src="/content/aloe.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="aloe" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/aloe.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#adventuretime">
+                <img src="/content/adventure-time.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="adventuretime" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/adventure-time.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#kirboba3">
+                <img src="/content/kirboba-3.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="kirboba3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/kirboba-3.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="img-grid-column">
+             <!-- Button trigger modal -->
+             <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#mushrooms">
+                <img src="/content/mushrooms.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="mushrooms" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/mushrooms.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#kirboba2">
+                <img src="/content/kirboba-2.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="kirboba2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/kirboba-2.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#catra">
+                <img src="/content/catra.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="catra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/catra.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+
+        </div>
+
+        <div class="img-grid-column">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#faceless">
+                <img src="/content/faceless.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="faceless" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/faceless.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#skybox">
+                <img src="/content/Skybox_Finished.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="skybox" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/Skybox_Finished.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#callan">
+                <img src="/content/callan-greystone.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="callan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/callan-greystone.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#puzzle">
+                <img src="/content/Puzzle_1.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="puzzle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/Puzzle_1.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="img-grid-column">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#kirboba">
+                <img src="/content/kirboba.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="kirboba" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/kirboba.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#cardback">
+                <img src="/content/CardBack.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="cardback" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/CardBack.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#witchfrog">
+                <img src="/content/witch-frog.png">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="witchfrog" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/content/witch-frog.png">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <script>
         let camera, renderer, stars, starGeo;
@@ -208,7 +831,7 @@
             requestAnimationFrame(animate);
         }
         init();
-    </script>
+    </script> 
 
 </body>
 
