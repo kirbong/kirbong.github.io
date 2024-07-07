@@ -118,7 +118,7 @@ main {
 
 
 /* responsive design media query */
-@media only screen and (max-width: 1400px) {
+@media (max-width: 1400px) {
     #flex {
         flex-wrap: wrap;
     }
@@ -139,12 +139,12 @@ main {
         flex-wrap: wrap;
     }
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
@@ -172,7 +172,7 @@ main {
         text-align: center;
     }
 }
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     }
