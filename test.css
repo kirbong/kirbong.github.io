@@ -1,3 +1,4 @@
+/* Reset and global styles */
 body {
     font-family: "Inclusive Sans", sans-serif !important;
     margin: 0;
@@ -19,6 +20,7 @@ body {
 #container a {
     color: #8ccf7e;
     font-weight: bold;
+    text-decoration: none;
 }
 
 #container a:hover {
@@ -33,7 +35,7 @@ body {
     border: none;
     color: #8ccf7e;
     cursor: pointer;
-    margin-left: auto;
+    margin-left: auto; /* Places the hamburger menu on the right */
     padding: 5px;
 }
 
@@ -63,6 +65,8 @@ body {
     color: #8ccf7e;
     font-weight: 800;
     text-decoration: none;
+    padding: 10px;
+    display: block;
 }
 
 #navbar li a:hover {
@@ -101,7 +105,6 @@ main {
     align-items: center;
 }
 
-
 .item {
     display: flex;
     justify-content: center;
@@ -109,48 +112,18 @@ main {
     overflow: hidden;
 }
 
-
 .item img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
 }
 
-
-/* responsive design media query */
-@media only screen and (max-width: 1400px) {
-    #flex {
-        flex-wrap: wrap;
-    }
-
-    aside {
-        width: 100%;
-    }
-
-    main {
-        order: 1;
-    }
-
-    #leftSidebar {
-        order: 2;
-    }
-
-    #navbar ul {
-        flex-wrap: wrap;
-    }
-}
-@media only screen and (max-width: 1024px) {
-    .grid {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    }
-}
-@media only screen and (max-width: 768px) {
-    .grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    }
+/* Media query for responsive design */
+@media (max-width: 768px) {
     .hamburger {
         display: block; /* Show hamburger menu icon on smaller screens */
     }
+
     #navbar ul {
         display: none; /* Hide the navbar list by default on smaller screens */
         flex-direction: column; /* Stack items vertically */
@@ -171,58 +144,4 @@ main {
         width: 100%;
         text-align: center;
     }
-}
-@media only screen and (max-width: 480px) {
-    .grid {
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    }
-}
-
-/* Footer styles */
-footer {
-    background-color: #141b1e;
-    width: 100%;
-    height: 40px;
-    padding: 10px;
-    text-align: center;
-}
-
-/* Header styles */
-h1,
-h2,
-h3 {
-    color: #8ccf7e;
-}
-
-h1 {
-    font-size: 25px !important;
-}
-
-/* Strong text styles */
-strong {
-    color: #8ccf7e;
-}
-
-/* Box styles */
-.box {
-    background-color: #1c2724;
-    border: 1px solid #8ccf7e;
-    padding: 10px;
-}
-
-/* Form styles */
-.form {
-    display: flex;
-    margin: auto;
-    justify-self: center;
-    justify-content: center;
-}
-
-/* Top bar styles */
-#topBar {
-    width: 100%;
-    height: 30px;
-    padding: 10px;
-    font-size: smaller;
-    background-color: #13092D;
 }
