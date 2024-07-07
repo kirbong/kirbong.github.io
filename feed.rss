@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>kristen's blog.</title>
+        <link>https://marcinek.tech/blog.html</link>
+        <description>the blog of kristen marcinek</description>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 06 Jul 2024 11:38:25 GMT</lastBuildDate>
+        <item>
+            <title>welcome to my site!</title>
+            <link>https://marcinek.tech/content/blog/welcome.html</link>
+            <pubDate>Wed, 03 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>ANNOUNCEMENT: find me at mlk library for my maker talk, games are for everybody!</title>
+            <link>https://marcinek.tech/content/blog/maker-talk.html</link>
+            <pubDate>Thurs, 04 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>connecting intriguing theory and practice</title>
+            <link>https://marcinek.tech/content/blog/connecting-theory.html</link>
+            <pubDate>Sat, 06 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

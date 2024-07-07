@@ -2,7 +2,6 @@ body {
     font-family: "Inclusive Sans", sans-serif !important;
     margin: 0;
     background-color: #141b1e;
-    /* you can delete the line below if you'd prefer to not use an image */
     color: #dadada;
 }
 
@@ -10,45 +9,26 @@ body {
     box-sizing: border-box;
 }
 
-/* below this line is CSS for the layout */
-
-/* this is a CSS comment
-to uncomment a line of CSS, remove the * and the /
-before and after the text */
-
-
-/* the "container" is what wraps your entire website */
-/* if you want something (like the header) to be Wider than
-the other elements, you will need to move that div outside
-of the container */
+/* Container for the whole layout */
 #container {
     max-width: 1500px;
-    /* this is the width of your layout! */
-    /* if you change the above value, scroll to the bottom
-and change the media query according to the comment! */
     margin: 0 auto;
-    /* this centers the entire page */
 }
 
-/* the area below is for all links on your page
-EXCEPT for the navigation */
+/* General link styles */
 #container a {
     color: #8ccf7e;
     font-weight: bold;
-    /* if you want to remove the underline
-you can add a line below here that says:
-text-decoration:none; */
 }
 
 #container a:hover {
     color: #838887;
 }
 
-/* navigation section!! */
+/* Navigation bar styles */
 #navbar {
     height: 40px;
     background-color: #141b1e;
-    /* navbar color */
     width: 100%;
 }
 
@@ -64,39 +44,30 @@ text-decoration:none; */
     padding-top: 10px;
 }
 
-/* navigation links*/
 #navbar li a {
     color: #8ccf7e;
-    /* navbar text color */
     font-weight: 800;
     text-decoration: none;
-    /* this removes the underline */
 }
 
-/* navigation link when a link is hovered over */
 #navbar li a:hover {
     color: #838887;
-    text-decoration: none;
 }
 
+/* Flex container for the layout */
 #flex {
     display: flex;
 }
 
-/* this colors BOTH sidebars
-if you want to style them separately,
-create styles for #leftSidebar and #rightSidebar */
+/* Sidebar styles */
 aside {
     background-color: #141b1e;
     width: 200px;
     padding: 20px;
     font-size: smaller;
-    /* this makes the sidebar text slightly smaller */
 }
 
-
-/* this is the color of the main content area,
-between the sidebars! */
+/* Main content area */
 main {
     background-color: #1c2724;
     flex: 1;
@@ -104,75 +75,52 @@ main {
     order: 2;
 }
 
-/* what's this "order" stuff about??
-allow me to explain!
-if you're using both sidebars, the "order" value
-tells the CSS the order in which to display them.
-left sidebar is 1, content is 2, and right sidebar is 3! */
-
-*/ #leftSidebar {
-    order: 1;
+/* Grid styles */
+.grid {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    justify-items: center;
+    align-items: center;
 }
 
-footer {
-    background-color: #141b1e;
-    /* background color for footer */
-    width: 100%;
-    height: 40px;
-    padding: 10px;
-    text-align: center;
-    /* this centers the footer text */
-}
 
-h1,
-h2,
-h3 {
-    color: #8ccf7e;
-}
-
-h1 {
-    font-size: 25px !important;
-}
-
-strong {
-    /* this styles bold text */
-    color: #8ccf7e;
-}
-
-/* this is just a cool box, it's the darker colored one */
-.box {
-    background-color: #1c2724;
-    border: 1px solid #8ccf7e;
-    padding: 10px;
-}
-
-.form {
+.item {
     display: flex;
-    margin: auto;
-    justify-self: center;
     justify-content: center;
-}
-
-/* CSS for extras */
-
-#topBar {
-    width: 100%;
-    height: 30px;
-    padding: 10px;
-    font-size: smaller;
-    background-color: #13092D;
+    align-items: center;
+    overflow: hidden;
 }
 
 
-/* BELOW THIS POINT IS MEDIA QUERY */
+.item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
-/* so you wanna change the width of your page? 
-by default, the container width is 900px.
-in order to keep things responsive, take your new height,
-and then subtrack it by 100. use this new number as the 
-"max-width" value below
-*/
 
+/* Media query for responsive grid */
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+}
+
+
+/* Adjust layout for smaller screens */
 @media only screen and (max-width: 1400px) {
     #flex {
         flex-wrap: wrap;
@@ -182,10 +130,6 @@ and then subtrack it by 100. use this new number as the
         width: 100%;
     }
 
-    /* the order of the items is adjusted here for responsiveness!
-since the sidebars would be too small on a mobile device.
-feel free to play around with the order!
-*/
     main {
         order: 1;
     }
@@ -197,4 +141,53 @@ feel free to play around with the order!
     #navbar ul {
         flex-wrap: wrap;
     }
+}
+
+/* Footer styles */
+footer {
+    background-color: #141b1e;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Header styles */
+h1,
+h2,
+h3 {
+    color: #8ccf7e;
+}
+
+h1 {
+    font-size: 25px !important;
+}
+
+/* Strong text styles */
+strong {
+    color: #8ccf7e;
+}
+
+/* Box styles */
+.box {
+    background-color: #1c2724;
+    border: 1px solid #8ccf7e;
+    padding: 10px;
+}
+
+/* Form styles */
+.form {
+    display: flex;
+    margin: auto;
+    justify-self: center;
+    justify-content: center;
+}
+
+/* Top bar styles */
+#topBar {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: smaller;
+    background-color: #13092D;
 }
