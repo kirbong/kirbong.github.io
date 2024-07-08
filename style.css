@@ -68,6 +68,24 @@ body {
 #navbar li a:hover {
     color: #838887;
 }
+#navList .dropdown {
+    position: relative; /* Ensure dropdown menu position relative to the parent li */
+}
+
+#navList .dropdown .dropdown-menu {
+    display: none; /* Hide dropdown menu by default */
+    position: absolute;
+    top: 100%; /* Position dropdown below the parent li */
+    left: 0;
+    background-color: #141b1e;
+    padding: 10px;
+    list-style-type: none;
+}
+
+#navList .dropdown:hover .dropdown-menu {
+    display: block; /* Show dropdown menu on hover */
+}
+
 
 /* Flex container for the layout */
 #flex {
