@@ -5,7 +5,7 @@
         <link>https://marcinek.tech/blog.html</link>
         <description>the blog of kristen marcinek</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 12 Jul 2024 03:34:03 GMT</lastBuildDate>
+        <lastBuildDate>Thurs, 25 Jul 2024 07:04:56 GMT</lastBuildDate>
         <item>
             <title>welcome to my site!</title>
             <link>https://marcinek.tech/content/blog/welcome.html</link>
@@ -614,6 +614,227 @@
                 <br>
                 <p><i>memento vivere</i>,</p>
                 <p>kristen 💌</p> 
+            ]]></content:encoded>
+        </item>
+        <item>
+            <title></title>
+            <link></link>
+            <pubDate>Thurs, 25 Jul 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[
+                <h1>potpourri no.2</h1>
+                <h3>mind stuff</h3>
+                <p><time>2024-07-25</time></p>
+
+                <p>so yeah, this fell through the cracks a little bit already. you can't blame me! i had a game jam
+                    submission, two back to back presentations, and a wonderful surprise visit from a wonderful friend.
+                    i am sad such an eventful weekend is now over, but i am also happy to be getting back on track.</p>
+
+                <br>
+                <h3>slapping on the bow</h3>
+                <p><b>presentations</b></p>
+                <p>the weekend of talks went incredibly well! both of my presentations garnered immense interest, and i
+                    have now made some really cool connections through them.</p>
+                <p>the creative coding fest workshop recording is not yet available to the public. i will link/upload it
+                    as soon as i am notified that it is!</p>
+                <p>if you would like to watch my maker talk, you can see the recording of the livestream <a
+                        href="https://www.youtube.com/live/TyOr8hHK3Hk?si=v8a8xQ7GMVwP4BJZ" target="_blank">on
+                        youtube</a>, or watch below!</p>
+                <iframe width="35%" height="315px" src="https://www.youtube.com/embed/TyOr8hHK3Hk?si=v8a8xQ7GMVwP4BJZ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>i will also have a separate page linking the slides for both, as well as a zine of the contents of
+                    the maker talk for download!</p>
+                <p>and special shout-out to one of my best friends, ellie, for surprising me and attending the talk! i
+                    was genuinely so surprised that i questioned if my nerves could <i>really</i> make me hallucinate
+                    her presence.</p>
+                <img src="/images/ellie.jpg" alt="" width="30%">
+                <p><b>queer joy jam: polly heart, mall mop</b></p>
+                <p>some friends and i submitted <a href="https://marcinexus.itch.io/pollyheart-mallmop"
+                        target="_blank">polly heart: mall mop</a> to <a href="https://itch.io/jam/queerjoyjam2024"
+                        target="_blank">queer joy jam</a>!</p>
+                <p>as game jams go, there were issues with the build, not all of the art was completed, we all got burnt
+                    out at the end, etc..... i do not say this in a defeatist way. not being hard on oneself for missing
+                    self-imposed, recreational deadlines is a standard i will always uphold. this experience was super
+                    freaking fun; the team i worked with was so amazingly talented, and i look forward to pushing the
+                    game through the finish line with them in the upcoming weeks!!! stay tuned!!!</p>
+                <p><b>japan-us careers webinar</b></p>
+                <p>i attended a webinar last week that was a collaboration between the embassy of japan and kizuna
+                    across cultures. it was a discussion on how americans can pursue careers in japan, or even pursue
+                    careers in the united states that deal with us-japan relations.</p>
+                <p>my study abroad this year has empowered me to actually consider a career abroad, and finding
+                    opportunities such as this helps me get further with that goal. i will list some of the resources
+                    the panelists recommended below!</p>
+
+                <br>
+                <h3>creatin'</h3>
+                <p><b>live coding dungeon synth with a vocaloid choir</b></p>
+                <p>some friends of mine are hosting an algorave in october (details about how to particpate below).</p>
+                <p>i like electronic music, but it is not something i envision creating. i do not know why, exactly,
+                    just doesn't feel like <i>me</i>, whatever that means.</p>
+                <p>therefore, i thought of what other music genres can be recreated in code. music genres that are synth
+                    heavy and/or usually electronically produced would be easiest to live code (yes, obviously these
+                    would still be under the
+                    electronic umbrella). that is where i came up
+                    with the idea to livecode dungeon synth.</p>
+                <p>i have been downloading samples of wacky retro synths & orchestral instruments to implement in <a
+                        href="https://github.com/Qirky/FoxDot" target="_blank">foxdot</a>. i
+                    chose foxdot because it is python, and it also has <a href="https://www.sinsy.jp/"
+                        target="_blank">sinsy.jp</a> integration, which is an open source vocaloid program. i plan on
+                    using sinsy to have a "choir" singing effect, like many fantasy instrumentals do.</p>
+                <p><b>us-japan relations in gaming</b></p>
+                <p>usually, i denote economics as the straight guy's version of astrology (/hj). who knew that i would
+                    be
+                    becoming more and more invested in its inner workings?</p>
+                <p>i have fell down a research rabbithole of tensions and competition between american and japanese
+                    gaming companies, and the implications of this rivalry for larger economic security collaboration. i
+                    will be turning some of this research into a publication, hopefully coming soon.</p>
+                <p>if you are interested in learning more about us-japan economic security relations more broadly, i
+                    recommend checking out <a
+                        href="https://www.wilsoncenter.org/publication/reshaping-us-japan-economic-security-partnership-indo-pacific"
+                        target="_blank">this publication from the wilson center</a>!</p>
+                <p><b>psyche quest</b></p>
+                <p><a href="https://marcinexus.itch.io/psyche-quest" target="_blank">psyche quest</a> is one of the
+                    projects that i am most proud of, though it has not yet reached the potential i believe it has. i am
+                    going to be re-working the level design to be longer & more intuitive, flesh out the narrative, do
+                    further research on bpd to include in the game, and adding all of the standard menus, settings, save
+                    states, etc. over the next few months.</p>
+                <p>psyche quest has only been made possible by the efforts of my classmate, sara, who worked with me on
+                    this tirelessly for a midterm project for one of our courses last year. thank you, sara!</p>
+                <p><b><a href="https://marcinek.tech/content/blog/potpourri-1.html">status update:</a> clown egg</b></p>
+                <p>i went to blick in downtown dc to get some face paint to test out my design for twinkles.</p>
+                <p>also ideating on my outfit! i am thinking of having a wizard hat with some white, lacey ruffles
+                    attached to the bottom. i think the rest of the outfit will be a puffy onesie, very
+                    boobah-esque. now i just need to learn how to properly sew!</p>
+                <p><b><a href="https://marcinek.tech/content/blog/potpourri-1.html">status update:</a> you are so
+                        loved.</b></p>
+                <p>this one is a bit on the backburner, but i am trying to focus on it further!</p>
+                <img src="/images/love_letter.png" alt="" width="40%">
+
+                <br>
+                <h3>evanescent interests</h3>
+                <ul>
+                    <li><a href="https://nonstateactress.substack.com/p/non-state-actress-17-what-would-elle"
+                            target="_blank">non-state actress #17: elle woods and assassination attempts</a>
+                    </li>
+                    <li><a href="https://c4ss.org/" target="_blank">center for a stateless society</a>
+                    </li>
+                    <li> <a href="https://alliedmedia.org/resources/resource-test" target="_blank">consentful tech
+                            zine</a></li>
+                    <li><a href="https://darkvisitors.com/docs/analytics" target="_blank">dark visitors agent
+                            analytics</a></li>
+                    <li><a href="https://www.korg.com/us/products/synthesizers/korg_dsn12/" target="_blank">korg
+                            dsn-12</a></li>
+                </ul>
+
+                <br>
+                <h3>moodboard</h3>
+                <p><b>adult ps2 ads</b></p>
+                <p><img src="/images/ps2-ad-1.jpg" alt="" width="25%"></p>
+                <p><img src="/images/ps2-ad-2.jpg" alt="" width="25%"></p>
+                <p><img src="/images/ps2-ad-3.jpg" alt="" width="25%"></p>
+                <p><img src="/images/ps2-ad-4.jpg" alt="" width="25%"></p>
+                <p><b>crowdstrike tokusatsu mascots</b></p>
+                <p><img src="/images/crowdstrike-1.webp" alt="" width="35%"></p>
+                <img src="/images/crowdstrike-2.png" alt="" width="20%">
+                <img src="/images/crowdstrike-3.png" alt="" width="20%">
+                <p><b>gan-q from ultraman</b></p>
+                <img src="/images/Gan_Q.webp" alt="" width="25%">
+
+                <br>
+                <h3>🌱 sprouts from my mind garden</h3>
+                <p><b>kaiju psychological horror game</b></p>
+                <p><i>what makes a <b>god</b>? how does a god become forgotten? how would one overcome <b>a forgotten
+                            god’s wrath</b>?</i></p>
+                <p>i think cthulhu was the first kaiju. no, really, not even king kong. (or, okay, maybe biblically
+                    accurate angels were or something). there are too many similarities
+                    between the role godzilla plays in his early films and cthulhu. i believe there is a lot of
+                    untapped potential in the kaiju genre for cosmic & psychological horror elements because of this
+                    comparison.</p>
+                <p>i am currently ideating on a psychological horror game about a sole survivor of a kaiju attack who
+                    must find their way back to their loved ones through piecing together memories of their life that
+                    were
+                    wiped away through injury. this is a rather intense premise, and thus would have a very intensive
+                    development process, especially since i would envision such a game as a first-person 3d experience.
+                    because of this, this is mostly a sprout until i have the bandwidth to seriously consider
+                    development.</p>
+                <p><b>temporary tattoos</b></p>
+                <p>when thinking on pervasive games, i like to consider the roles of "the person" and "the body" as
+                    actors within a space. what is a way to (ethically) integrate "the body" into pervasive play?</p>
+                <p>in taking the playful cities course, i thought temporary tattoos would be an interesting way to
+                    explore this idea. i considered using them as tattooable qr codes that would start a <a
+                        href="https://www.hivemechanic.org/" target="_blank">hive
+                        mechanic</a> session. unfortunately, this was an idea that i did not get to explore but would
+                    definitely like to further.</p>
+                <p><b>technology as a metaphor for the body (and the body informing technology?)</b></p>
+                <p>on a tangential note to the sprout above, i have also been inspired by ali na's work, <a
+                        href="https://www.tandfonline.com/doi/full/10.1080/14680777.2017.1298143" target="_blank"><i>the
+                            fetish of the click: a small history of the computer mouse as vulva</i></a>. i am thinking
+                    of other ways in which technology mirrors the analog, biological human experience, especially
+                    regarding "the body."</p>
+                <p>this has been massively inspirational in some of the ideas for further artwork i am exploring. these
+                    sprouts are not even sprouts, just seeds, so i will share more on my ideas as i flesh them out!</p>
+                <p><b>syllabus project</b></p>
+                <p>instagram has allowed me to stumble into the <a href="https://syllabusproject.org/"
+                        target="_blank">syllabus project</a>. i <i>love</i> learning, and i <i>love</i> teaching, so i
+                    am
+                    thinking of a syllabus idea to propose. i am trying to think of the wackiest, weirdest game
+                    design-based syllabus as possible that would also have a worthwhile impact, of course. stay tuned to
+                    see where i go with this!</p>
+
+                <br>
+                <h3>consumin'</h3>
+                <ul>
+                    <li><b>playing:</b> depression quest (watch out for a review!)</li>
+                    <li><b>viewing:</b> pink floyd - the wall (1982) [<i>special thanks to the nostalgia critic of all
+                            people + the people dunking on him for inspiring me to finally watch it!</i>]</li>
+                    <li><b>listening:</b> <a href="https://fftd.bandcamp.com/album/nova" target="_blank">flowers for the
+                            dead</a></li>
+                    <li><b>reading:</b> godzilla vs. mighty morphin power rangers vol. 1</li>
+                </ul>
+
+                <br>
+                <h3>events & opportunities</h3>
+                <ul>
+                    <li>7/27 | <a href="https://americanart.si.edu/events/saam-arcade" target="_blank">saam arcade
+                            2024</a> - washington, dc</li>
+                    <li>7/28 | <a href="https://www.instagram.com/solplots/" target="_blank">plotting & thotting</a> -
+                        takoma park, dc</li>
+                    <li>7/29 | <a href="https://www.meetup.com/hac-dc/events/302146413/" target="_blank">hacdc open hac</a> - washington, dc</li>
+                    <li>submission deadline: 8/2 | <a href="https://sfpc.study/participate" target="_blank">fall 2024
+                            school for poetic computation courses</a> - virtual</li>
+                    <li>8/2 - 8/4 | <a href="https://www.artscape.org/" target="_blank">artscape 40</a> - baltimore, md
+                    </li>
+                    <li>8/3 | <a href="https://www.meetup.com/novagamedevs/events/301441332/" target="_blank">nova game developers game dev working session</a> - falls church, va</li>
+                    <li>8/3 | <a href="https://www.meetup.com/baltimore-indie-game-developers-group/events/302225438/" target="_blank">baltimore indie game developers group game dev meetup</a> - virtual</li>
+                    <li>8/12 - 8/14 | <a href="https://seriousplayconf.com/" target="_blank">serious play conference</a>
+                        - toronto, canada</li>
+                    <li>8/21 - 8/25 | <a href="https://www.gamescom.global/en/tickets/buy-tickets"
+                            target="_blank">gamescom 2024</a> - cologne, germany</li>
+                    <li>9/17 - 9/19 | <a href="https://lesbianswhotech.org/newyorksummit2024/" target="_blank">lesbians who tech</a> - new york, ny</li>
+                    <li>submission deadline: rolling before fall 2024 | <a href="http://ethicalgamesconference.org/"
+                            target="_blank">propose a workshop for acm's ethical games conference</a>! - virtual</li>
+                    <li>submission deadline: rolling | <b>perform at an algorave!</b> <a
+                            href="https://discord.gg/u4gxxVQwSy" target="_blank">join the creatives club
+                            #💻-creative-tech channel if interested!</a> - takoma park, dc</li>
+                    <li>submission deadline: rolling | <a href="https://dczinefest.wordpress.com/" target="_blank">dc
+                            zinefest</a> - washington, dc</li>
+                    <li>job board: <a href="https://www.ikigaiconnections.com/" target="_blank">ikigai connections</a>
+                    </li>
+                    <li>job board: <a href="https://nihongojobs.com/" target="_blank">nihongo jobs</a></li>
+                    <li>job board: <a
+                            href="https://docs.google.com/spreadsheets/d/1dFM3aqo0F_L7h-lCdjlSFviB1xDsa1nley6e3Y0cu74/edit?gid=0#gid=0&fvid=1545662739"
+                            target="_blank">support your indies</a></li>
+                    <li>job board: <a
+                            href="https://docs.google.com/spreadsheets/u/0/d/1eR2oAXOuflr8CZeGoz3JTrsgNj3KuefbdXJOmNtjEVM/htmlview"
+                            target="_blank">animation/vfx/game industry job postings</a></li>
+
+
+                </ul>
+
+                <br>
+                <p><i>memento vivere</i>,</p>
+                <p>kristen 💌</p>
             ]]></content:encoded>
         </item>
         <!-- <item>
