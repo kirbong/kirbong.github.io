@@ -5,7 +5,7 @@
         <link>https://marcinek.tech/blog.html</link>
         <description>the blog of kristen marcinek</description>
         <language>en-us</language>
-        <lastBuildDate>Thurs, 25 Jul 2024 07:04:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Aug 2024 12:50:21 GMT</lastBuildDate>
         <item>
             <title>welcome to my site!</title>
             <link>https://marcinek.tech/content/blog/welcome.html</link>
@@ -617,8 +617,8 @@
             ]]></content:encoded>
         </item>
         <item>
-            <title></title>
-            <link></link>
+            <title>potpourri no.2</title>
+            <link>https://marcinek.tech/content/blog/potpourri-2.html</link>
             <pubDate>Thurs, 25 Jul 2024 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[
                 <h1>potpourri no.2</h1>
@@ -812,6 +812,143 @@
                     <li>8/21 - 8/25 | <a href="https://www.gamescom.global/en/tickets/buy-tickets"
                             target="_blank">gamescom 2024</a> - cologne, germany</li>
                     <li>9/17 - 9/19 | <a href="https://lesbianswhotech.org/newyorksummit2024/" target="_blank">lesbians who tech</a> - new york, ny</li>
+                    <li>submission deadline: rolling before fall 2024 | <a href="http://ethicalgamesconference.org/"
+                            target="_blank">propose a workshop for acm's ethical games conference</a>! - virtual</li>
+                    <li>submission deadline: rolling | <b>perform at an algorave!</b> <a
+                            href="https://discord.gg/u4gxxVQwSy" target="_blank">join the creatives club
+                            #💻-creative-tech channel if interested!</a> - takoma park, dc</li>
+                    <li>submission deadline: rolling | <a href="https://dczinefest.wordpress.com/" target="_blank">dc
+                            zinefest</a> - washington, dc</li>
+                    <li>job board: <a href="https://www.ikigaiconnections.com/" target="_blank">ikigai connections</a>
+                    </li>
+                    <li>job board: <a href="https://nihongojobs.com/" target="_blank">nihongo jobs</a></li>
+                    <li>job board: <a
+                            href="https://docs.google.com/spreadsheets/d/1dFM3aqo0F_L7h-lCdjlSFviB1xDsa1nley6e3Y0cu74/edit?gid=0#gid=0&fvid=1545662739"
+                            target="_blank">support your indies</a></li>
+                    <li>job board: <a
+                            href="https://docs.google.com/spreadsheets/u/0/d/1eR2oAXOuflr8CZeGoz3JTrsgNj3KuefbdXJOmNtjEVM/htmlview"
+                            target="_blank">animation/vfx/game industry job postings</a></li>
+
+
+                </ul>
+
+                <br>
+                <p><i>memento vivere</i>,</p>
+                <p>kristen 💌</p>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <title>potpourri no.3</title>
+            <link>https://marcinek.tech/content/blog/potpourri-3.html</link>
+            <pubDate>Mon, 05 Aug 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[
+                <h1>potpourri no.3</h1>
+                <h3>mind stuff</h3>
+                <p><time>2024-08-05</time></p>
+
+                <p>happy august, everyone! this summer has really flown by. this week's potpourri is a little barren.
+                    feeling a tad overwhelmed in life in this current moment.
+                    still <i>some</i> cool stuff to round up, though!</p>
+
+                <br>
+                <h3>slapping on the bow</h3>
+                <p><b>games round up: international trade</b></p>
+                <p>at my internship, i have now posted <a
+                        href="https://www.wilsoncenter.org/blog-post/games-round-international-trade" target="_blank">my
+                        first blog post</a>! it is a round up of different games that discuss international trade!
+                    through the writing of this blog, i found that there aren't <i>really</i> many games about
+                    international trade. this is an underexplored issue area for games designed as serious. i also
+                    explored how entertainment-first games can inspire their players to learn more about the real-world
+                    economies they are based on.</p>
+
+                <br>
+                <h3>creatin'</h3>
+                <p><b>c0mput3r 5c3n4r105</b></p>
+                <p>someone shared <a href="https://c0ffee.surge.sh/">#coffee is the color</a> in the creatives club
+                    discord server. it is a website of hex codes that are either real words, or look like real words in
+                    1337speak.</p>
+                <p>inspired by this, i started to find words that have similar meanings or commonalities in some
+                    fashion. thus, this birthed "c0mput3r 5c3n4r105," a series of visualizations based on these hex code
+                    groupings made in javascript. these require a pretty low amount of effort, so they have been nice to
+                    work on in the background!</p>
+                <img src="/images/c0mput3r_5c3n4r105_cover.png" alt="" width="35%">
+                <img src="/images/c0mput3r_sc3n4r10s_depression.png" alt="" width="35%">
+                <img src="/images/c0mput3r_sc3n4r10s_falsehoods.png" alt="" width="35%">
+                <img src="/images/c0mput3r_sc3n4r10s_sued.png" alt="" width="35%">
+
+                <br>
+                <h3>evanescent interests</h3>
+                <ul>
+                    <li><a href="https://andyworld.io/artwork/splattershmup/game/index.html"
+                            target="_blank">splattershmup</a>
+                    </li>
+                    <li><a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.571522/full"
+                            target="_blank">existential transformational game design: harnessing the “psychomagic” of
+                            symbolic enactment</a></li>
+                    <li><a href="https://www.gamepoemsbook.com/" target="_blank">game poems</a> by jordan magnuson</li>
+                </ul>
+
+                <br>
+                <h3>moodboard</h3>
+                <p><b>nam june paik - tv buddha</b></p>
+                <p><img src="/images/tv_buddha_3.jpg" alt="" width="35%"></p>
+                <p><img src="/images/tv_buddha_1.jpg" alt="" width="35%"></p>
+                <p><img src="/images/tv_buddha_2.jpg" alt="" width="35%"></p>
+                <p><b>left eye & eric cartman</b></p>
+                <img src="/images/left_eye.jpeg" alt="" width="30%">
+                <p><b>bits (tv series, 1999 - 2001)</b></p>
+                <iframe width="35%" height="315" src="https://www.youtube.com/embed/CPcFHTUhlUM?si=QWCMX0mCxvShFmk9"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p><img src="/images/bits-show.png" alt="" width="45%"></p>
+                <p><b>batman: digital justice</b></p>
+                <p><img src="/images/batman-2.jpg" alt=""></p>
+                <p><img src="/images/batman-1.webp" alt="" width="40%"></p>
+                <p><img src="/images/batman-3.jpg" alt="" width="35%"></p>
+                <p><b>reboot (tv series, 1994 - 2001)</b></p>
+                <p><img src="/images/reboot_1.jpg" alt="" width="35%"> <img src="/images/reboot_3.jpg" alt=""
+                        width="35%"></p>
+                <p><img src="/images/reboot_2.gif" alt=""></p>
+
+                <br>
+                <h3>🌱 sprouts from my mind garden</h3>
+                <p><i>the mind garden is going through a drought right now. come back for harvest later when it is
+                        watered!</i></p>
+                <p><i>if you would like to see some stuff from me, i have been trying to make an effort to post more on
+                        my
+                        instagram (though who
+                        knows how long it will last): <a href="https://www.instagram.com/marcinek.tech/"
+                            target="_blank">@marcinek.tech</a>. i post everything there here, too, but i am easier to
+                        reach on that platform.</i></p>
+
+                <br>
+                <h3>consumin'</h3>
+                <ul>
+                    <li><b>playing:</b> depression quest (watch out for a review!) & little big planet</li>
+                    <li><b>viewing:</b> pink floyd - the wall (1982)</li>
+                    <li><b>listening:</b> ocean sounds • 🌊˖°𓇼⋆🐋🐚 𓈒𓏸</li>
+                    <li><b>reading:</b> <a
+                            href="https://ecommons.cornell.edu/server/api/core/bitstreams/04bd84f0-76e3-4f71-8fe6-4e68ce3d7697/content"
+                            target="_blank">the case of competitive video gaming and its fandom: media objects, fan
+                            practices, and fan identities</a> by dr. elizabeth m h newbury</li>
+                </ul>
+
+                <br>
+                <h3>events & opportunities</h3>
+                <ul>
+                    <li>i am trying to plan a <b>slime making gathering</b> for people in the dmv! if you are
+                        interested,
+                        please join the <a href="https://discord.gg/82jfdQKz2e" target="_blank">creatives club
+                            discord</a> and worm🪱 react to my message in #🛸-general!</li>
+                    <li>8/3 | <a href="https://www.meetup.com/baltimore-indie-game-developers-group/events/302225438/"
+                            target="_blank">baltimore indie game developers group game dev meetup</a> - virtual</li>
+                    <li>8/12 - 8/14 | <a href="https://seriousplayconf.com/" target="_blank">serious play conference</a>
+                        - toronto, canada</li>
+                    <li>8/21 - 8/25 | <a href="https://www.gamescom.global/en/tickets/buy-tickets"
+                            target="_blank">gamescom 2024</a> - cologne, germany</li>
+                    <li>9/17 - 9/19 | <a href="https://lesbianswhotech.org/newyorksummit2024/" target="_blank">lesbians
+                            who tech</a> - new york, ny</li>
                     <li>submission deadline: rolling before fall 2024 | <a href="http://ethicalgamesconference.org/"
                             target="_blank">propose a workshop for acm's ethical games conference</a>! - virtual</li>
                     <li>submission deadline: rolling | <b>perform at an algorave!</b> <a
